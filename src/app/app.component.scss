@@ -1,0 +1,38 @@
+* {
+  font-family: sans-serif;
+}
+
+nav {
+  border-bottom: solid black 1px;
+
+  a {
+    padding: 5px 5px 5px 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ccc;
+    border: solid black 1px;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: -1px;
+    color: black;
+  }
+  
+  a.active-tab {
+    background-color: #eee;
+    border-bottom: solid #eee 1px;
+  }
+}
+
+div#navigation {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+div#outlet {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  min-height: 500px;
+  border: solid black 1px;
+  border-top: none;
+}

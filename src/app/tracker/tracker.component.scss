@@ -1,0 +1,33 @@
+div#tracker-body {
+  padding: 5px 0 0 5px;
+}
+
+#init-list {
+  
+  div {
+    border: solid black 1px;
+    border-radius: 20px;
+    margin: 5px;
+    margin-top: 0px;
+    padding: 5px;
+    outline: none;
+  }
+
+  .list-heading-text {
+    border: none;
+    margin-bottom: 0;
+  }
+
+  .pointer {
+    border: none;
+  }
+
+  .list-heading {
+    border: none;
+    margin-bottom: 0;
+  }
+
+  .slot {
+    border: none;
+  }
+}

@@ -1,0 +1,17 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<div id="navigation">
+  <nav>
+    <a (click)="linkTabClicked()" routerLink="/tracker" [ngClass]="{'active-tab': linkActive}">Initiative Tracker</a>
+    <a (click)="createTabClicked()" routerLink='/creator' [ngClass]="{'active-tab': createActive}">Character/Moster Maker</a>
+    <a>Donate to site</a>
+  </nav>
+</div>
+<div id="outlet">
+  <router-outlet></router-outlet>
+</div>
+
